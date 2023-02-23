@@ -1,0 +1,58 @@
+.issuesListMainContainer{
+    border: 2px solid #d0d7de;
+    height: 75vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.issuesBlock{
+    border-bottom: 2px solid #d0d7de;
+    height: max-content;
+}
+
+.issuesBlock:hover{
+    background-color: #f4f7fb;
+}
+
+.issuesDescriptions{
+    padding: 10px;
+    display: flex;
+    gap: 1rem;
+}
+
+.issuesTitleLables{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.issuesTitle{
+    font-weight: 500;
+}
+
+.issuesTitle a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+
+.issueLabels{
+    margin-left: 0.5em;
+    font-size: 0.8em;
+    border-radius: 2em;
+    padding: 5px 8px;
+    font-weight: 400;
+}
+
+.issuesOtherDetails{
+    margin-left: 2em;
+    font-size: 0.8em;
+    margin-bottom: 2px;
+    color:#969696;
+;
+}
+
+.octicon path {
+    fill: green;
+}
