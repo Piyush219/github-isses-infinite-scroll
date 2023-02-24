@@ -1,0 +1,66 @@
+.firstRowMainContainer{
+    color: #57606A;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F8FA;
+    margin-top: 2em;
+    height: 3em;
+    padding: 10px;
+    align-items: center;
+    border: 2px solid #d0d7de;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+    margin-bottom: -3px;
+}
+
+.firstRowMainContainer svg path{
+    fill: #57606A;
+}
+
+.rowFirstDiv{
+    display: flex;
+    gap: 1em;
+}
+
+.firstRowValues{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.firstRowValues span {
+    cursor: pointer;
+}
+
+.outOfContainer{
+    display: none;
+}
+
+
+@media (max-width: 878px){
+    
+    .inContainer{
+        display: none;
+    }
+
+    .firstRowValues{
+        margin-left: 1em;
+    }
+
+    .outOfContainer{
+        margin-top: 1em;
+        display: flex;
+        gap: 1em;
+        color: #57606A;
+    }
+
+    .firstRowMainContainer{
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 638px){
+    .firstRowValues svg{
+        display: none;
+    }
+}

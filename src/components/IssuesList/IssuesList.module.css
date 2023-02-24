@@ -1,9 +1,10 @@
 .issuesListMainContainer{
     border: 2px solid #d0d7de;
-    height: 75vh;
+    /* height: 35vh; */
+    height: calc(100vh - 370px);
     overflow-x: hidden;
     overflow-y: auto;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .issuesBlock{
@@ -24,6 +25,8 @@
 .issuesTitleLables{
     display: flex;
     flex-wrap: wrap;
+    width: 85%;
+    gap: 0.2em;
 }
 
 .issuesTitle{
@@ -48,11 +51,25 @@
 .issuesOtherDetails{
     margin-left: 2em;
     font-size: 0.8em;
-    margin-bottom: 2px;
     color:#969696;
-;
+}
+
+.issuesComments{
+    display: flex;
+    gap: 0.2em;
+    width: 10%;
+    justify-content: flex-end;
+    color: #57606A;
 }
 
 .octicon path {
     fill: green;
+}
+
+.commentsSvgCustom{
+    cursor: pointer;
+}
+
+.commentsSvgCustom svg path {
+    fill: #57606A
 }

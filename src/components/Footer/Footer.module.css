@@ -1,0 +1,43 @@
+.issuesFooterMainContainer{
+    padding: 0% 4%;
+    margin-top: 2.5em;
+}
+
+.issuesFooterTags{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    margin-top: 2em;
+    color: blue;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footerUpperContent{
+    text-align: center;
+    font-size: 12px;
+    height: 3em;
+    border-bottom: 2px solid #d0d7de;
+}
+
+.innerFooterSvg{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    font-size: 12px;
+}
+
+.issuesFooterTags span {
+    cursor: pointer;
+}
+
+@media (max-width:1032px) {
+
+    .issuesFooterTags{
+        gap: 2em;
+    }
+
+    .innerFooterSvg{
+        gap: 2em;
+    }
+}

@@ -1,0 +1,29 @@
+.hamburgerIcon{
+    display: flex;
+    justify-content: flex-end;
+}
+.hamburger{
+    height: 10rem;
+    display: flex;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #eff2f5;
+    position: absolute;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.hamburgerChild{
+    min-width: fit-content;
+    border-radius: 10px;
+    display: flex;
+    gap: 0.8em;
+}
+
+.hamburgerChild .hardCodedValues{
+    background-color: #E5E7E9;
+    border-radius: 15px;
+    padding: 0.2em;
+    font-size: 12px;
+}
